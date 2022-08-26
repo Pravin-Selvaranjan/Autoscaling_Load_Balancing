@@ -3,9 +3,9 @@
 ![load balancer](https://user-images.githubusercontent.com/110179866/186463396-855eb422-cf25-46e5-82d1-29cf28a05e7a.jpeg)
 
 
-- Autoscaling automatincally adjusts the amount of computational resources based on the server load
+### Autoscaling automatically adjusts the amount of computational resources based on the server load
 
-- Load Balancing distributes traffic beetween ec2 instances so that no one instance gets overwhelmed
+### Load Balancing distributes traffic beetween ec2 instances so that no one instance gets overwhelmed
 
 ## Application Load Balancer
 An Application Load Balancer makes routing decisions at the application layer (HTTP/HTTPS), supports path-based routing, and can route requests to one or more ports on each container instance in your cluster. Application Load Balancers support dynamic host port mapping. For example, if your task's container definition specifies port 80 for an NGINX container port, and port 0 for the host port, then the host port is dynamically chosen from the ephemeral port range of the container instance (such as 32768 to 61000 on the latest Amazon ECS-optimized AMI). 
